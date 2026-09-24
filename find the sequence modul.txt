@@ -1,0 +1,25 @@
+FIND THE SEQUENCE
+------------------
+led, btn, buzzer, pake konsep interger biar gampang
+
+void setup:
+buat semua jadi pinmode, led, sama buzzer
+
+void loop:
+- ngeshow urutan tapi dengan lampu yg ga keliatan atau low gitu
+- giliran player buat nentuin urutannya 5x
+- cek urutannya yg bener apa aja, kalo bener dia bakal nyalain buzzer sebanyak benernya
+- abis tu giliran player lagi buat jalan
+- kalo semua tebakannya bener sesuai sequence maka game akan reset dan ganti ke sequence yang baru
+
+FUNCTION:
+playerturn = buat detect tombol yang diteken dan ngasih boolean true false
+gameover = buat akhir dan abis game over masuk ke reset
+showsequence = nnunjukin urutannya tpi lednya mati
+startsequence = generate urutan
+waitbutton = nunggu smpe button dipencet
+reset = ngereset urutan 
+correctBuzz = nyalain buzz sesuai berapa urutan yang bener
+checkTurn
+
+rules = mencet selalu 5x, gaoleh dabel click di 1 led, setelah selesai 5x click buzzer bunyi sebanyak yg bener
