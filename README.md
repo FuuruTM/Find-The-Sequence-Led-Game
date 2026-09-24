@@ -1,2 +1,9 @@
-# Find-The-Sequence-Led-Game
-Arduino LED Memory Game — a simple game where players guess the correct sequence of 5 LEDs using buttons, with a buzzer providing feedback for each attempt
+## Arduino LED Memory Game
+
+A simple Arduino-based game where the player has to guess the correct sequence of 5 LEDs.
+
+## How It Works
+- There are 5 LEDs with their own buttons.
+- The player presses the buttons in a random sequence.
+- The buzzer provides feedback based on the player's guess.
+- The player keeps trying until they find the correct LED sequence.
