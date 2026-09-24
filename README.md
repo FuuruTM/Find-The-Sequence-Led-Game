@@ -9,7 +9,7 @@ A simple Arduino-based game where the player has to guess the correct sequence o
 - The player keeps trying until they find the correct LED sequence.
 
 ## Components
-- Arduino
+- Arduino Uno
 - 5 LEDs
 - 5 Push Buttons
 - Buzzer
